@@ -7,3 +7,7 @@ terraform {
   }
   required_version = ">=1.15.4"
 }
+
+module "EC2 instance 1" {
+  source = "./ec2-module"
+}
